@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cobra Blog</title>
+  <style>
+    /* Color scheme */
+    :root {
+      --primary-color: #121916;    /* Dark blue */
+      --secondary-color: #bf6158;  /* Dark red */
+      --accent-color: #64373a;     /* Dark brown */
+      --background-color: #7699a1; /* Light blue */
+      --text-color: #5f7796;       /* Light blueish gray */
+    }
+
+    /* Global styles */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('https://i.pinimg.com/originals/e9/17/da/e917dabcf5aa5ade121ee363be36a181.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+    
+    /* Header styles */
+    header {
+  background-color: rgba(18, 25, 22, 0.9); /* Semi-transparent variant of --primary-color */
+      padding: 20px;
+      color: #fff;
+    }
+    
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    
+    nav {
+      margin-top: 10px;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    
+    nav ul li {
+      margin-right: 20px;
+    }
+    
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    
+    nav ul li a:hover {
+      color: var(--accent-color);
+    }
+    
+    /* Content styles */
+    .container {
+      background: linear-gradient(to right, rgba(18, 25, 22, 0.9), rgba(191, 97, 88, 0.5));
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      color: var(--text-color);
+    }
+    
+    /* Example content styles */
+    h1 {
+      color: var(--secondary-color);
+    }
+    
+    p {
+      color: var(--text-color);
+      line-height: 1.5;
+    }
+</style>
+
+</head>
+<body>
+  <header>
+    <div class="logo">Cobra Blog</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Tutorials</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div class="container">
+    <h1>Welcome to Cobra Blog</h1>
+    <p>Learn ethical hacking techniques, tools, and tips from Cobra Commander himself!</p>
+    <p>Stay tuned for exciting tutorials and expert insights in the world of cybersecurity.</p>
+  </div>
+</body>
+</html>
